@@ -23,5 +23,5 @@ while cont:
         for i in range(numRolls):
             probOfNotS *= (1-dispSProbs[startLV+1]/100)
             
-        print("Probability of S-limited in %d rolls using in-game displayed values, starting at %d Lucky Value: %0.02f%%\n" % (startLV, numRolls, 100-probOfNotS*100))
+        print("Probability of S-limited in %d rolls using in-game displayed values, starting at %d Lucky Value: %0.02f%%\n" % (numRolls, startLV, 100-probOfNotS*100))
         cont = not cont
